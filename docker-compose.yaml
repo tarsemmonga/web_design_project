@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  app:
+    build: .
+    ports:
+    - 80:80
+    environment:
+    - APP_CONFIG_PROFILE=${APP_CONFIG_PROFILE}

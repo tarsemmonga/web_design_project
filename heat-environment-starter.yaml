@@ -1,0 +1,8 @@
+# edit authkeys_url with a url to your pub keys, ssh_key_name with your openstack key name, and deploy_repository with the location of your repository
+parameters:
+  authkeys_url: https://cisgitlab.ufv.ca/TMONGA.keys
+  ssh_key_name: mongasam
+  deploy_repository: git@cisgitlab.ufv.ca:201701CIS245AB1s20/webdesign-project.git
+  public_net: ssh-proxy
+  private_net: default
+  deploy_repository_host_key: "|1|XTMvDoC0hI8h2lpe64xC/DM/2iQ=|pnISazNlvoa9k80//gbKPKuryfU= ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBNeSsic9srpBTVXlsKU2Uy6vmhAIKXJlsNkKuwQpfpcBk63AScENpW2RXeWGPn34+OMmnfGUkbG4wNhHq557vj4="
